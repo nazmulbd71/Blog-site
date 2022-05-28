@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*header part css start here*/
+.header{
+	width: 100%;
+	display: flow-root;
+}
+.navbar{
+	width: 100%;
+	float: left;
+	padding: 40px 0px
+}
+.logo{
+	width: 20%;
+	float: left;
+	text-align: left;
+}
+.menu-list{
+	width: 80%;
+	float: right;
+	text-align: right;
+}
+.menu-list ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+.menu-list ul li a{
+	text-transform: uppercase;
+	color: black;
+}
+.menu-list ul li a:hover{
+	color: #C902FF;
+}
+/*banner part css start here*/
+.banner{
+	width: 100%;
+	float: flow-root;
+}
+.banner h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #B597C1;
+}
+.about-award{
+	width: 100%;
+	padding: 38px;
+}
+.catagory{
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+.desc{
+    margin-bottom: 22px;
+}
+.comment{
+	text-transform: uppercase;
+}
+/*market-place part css start here*/
+.market-place{
+	width: 100%;
+	display: flow-root;
+}
+.marketplaces{
+    padding: 38px;
+	display: flow-root;
+}
+.post{
+	width: 100%;
+	float: left; 
+}
+.Upwork{
+	width: 48%;
+	float: left;
+}
+.about{
+      margin: 10px 0;
+      text-transform: uppercase;
+}
+.title{
+	margin-bottom: 12px;
+}
+.Fiverr{
+	width: 48%;
+	float: right;
+}
+/*load more button css start here*/
+.load-more{
+	text-align: center;
+	margin: 30px 0;
+}
+.load-more button{
+    padding: 20px 40px;
+    background: transparent;
+    border: none;
+    border: 2px solid green;
+    font-size: 22px;
+}
+/*subscripstion section start here */
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background: #D7D0DB;
+	text-align: center; 
+	padding: 50px;
+}
+ 
+.subscription h2{
+	margin-bottom: 25px
+}
+form input{
+	padding: 15px 0px;
+    width: 330px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form{
+    position: relative;
+}
+form i{
+	position: absolute;
+	top: 23px;
+    left: 715px;
+}
